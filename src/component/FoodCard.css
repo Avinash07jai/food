@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+}
+
+.container .card {
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.card .card-circle{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.card .card-read{
+    color: red;
+}
+
+.card .card-order{
+    color: blue;
+    text-align: center;
+}
+
+.card img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+}
